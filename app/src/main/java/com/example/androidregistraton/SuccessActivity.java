@@ -5,9 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 public class SuccessActivity extends AppCompatActivity {
 
@@ -60,10 +57,10 @@ public class SuccessActivity extends AppCompatActivity {
         placeOfBirthTxt.setText(placeOfBirth);
         TextView currentCompanyNameTxt = findViewById(R.id.current_company_name_txt);
         currentCompanyNameTxt.setText(currentCompany);
-        TextView totalExperienceTxt1 = findViewById(R.id.totalexperience_txt);
-        totalExperienceTxt1.setText(totalExperience);
-        TextView designation1Txt = findViewById(R.id.designation_txt1);
-        designation1Txt.setText(designation);
+        TextView totalExperienceTxtOne = findViewById(R.id.totalexperience_txt);
+        totalExperienceTxtOne.setText(totalExperience);
+        TextView designationOneTxt = findViewById(R.id.designation_one_txt);
+        designationOneTxt.setText(designation);
         TextView bankNameTxt1 = findViewById(R.id.bankname_txt);
         bankNameTxt1.setText(bankName);
         TextView accountHolderNameTxt1 = findViewById(R.id.accountholder_txt);

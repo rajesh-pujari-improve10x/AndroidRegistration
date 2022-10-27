@@ -14,15 +14,16 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="20dp"
         android:text="Address"
-        android:textColor="#423F3F"
-        android:textSize="34sp"
+        android:textAllCaps="true"
+        android:textColor="#151414"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="H.No/Apartment"
+        android:text="H.No / Apartment"
         android:textColor="#423F3F"
         android:textSize="16sp" />
 
@@ -101,12 +102,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/back_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
             android:layout_weight="1"
@@ -116,7 +117,7 @@
 
         <Button
             android:id="@+id/next_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_weight="1"
